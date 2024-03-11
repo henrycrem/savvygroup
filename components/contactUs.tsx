@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaEnvelope } from 'react-icons/fa';
-import ContactForm from './contact_form'; // Import your contact form component
+import ContactForm from './contact-form'; // Import your contact form component
 
 const ContactUs: React.FC = () => {
   return (
