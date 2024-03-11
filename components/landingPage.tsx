@@ -20,7 +20,7 @@ const LandingPage: React.FC = () => {
       >
         {/* Carousel Item 1 */}
         <div className="carousel-item relative w-full h-[600px]">
-          <img src="/images/banner.png" alt="Image 1" />
+          <img src="/images/banner.png" alt="Image 1" className="h-full" />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-30 text-white">
             
           </div>
@@ -28,7 +28,7 @@ const LandingPage: React.FC = () => {
 
         {/* Carousel Item 2 */}
         <div className="carousel-item relative w-full h-[600px]">
-          <img src="/images/banner2.png" alt="Image 1" />
+          <img src="/images/banner2.png" alt="Image 2" className="h-full" />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-30 text-white">
            
           </div>
@@ -36,7 +36,7 @@ const LandingPage: React.FC = () => {
 
         {/* Carousel Item 3 */}
         <div className="carousel-item relative w-full h-[600px]">
-          <img src="/images/banner3.png" alt="Image 1" />
+          <img src="/images/banner3.png" alt="Image 3" className="h-full" />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-30 text-white">
             
           </div>
@@ -44,7 +44,7 @@ const LandingPage: React.FC = () => {
 
         {/* Carousel Item 4 (Extended) */}
         <div className="carousel-item relative w-full h-[600px]">
-          <img src="/images/banner5.png" alt="Image 1" />
+          <img src="/images/banner5.png" alt="Image 4" className="h-full" />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-30 text-white">
             
           </div>
@@ -56,4 +56,3 @@ const LandingPage: React.FC = () => {
 };
 
 export default LandingPage;
-
