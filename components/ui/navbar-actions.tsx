@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import Button from "@/components/ui/button";
-import useCart from "@/hooks/use-cart";
+
 
 const NavbarActions = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -15,7 +15,7 @@ const NavbarActions = () => {
   }, []);
 
   const router = useRouter();
-  const cart = useCart();
+
 
   if (!isMounted) {
     return null;
