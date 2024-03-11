@@ -6,7 +6,7 @@ import LandingPage from "@/components/landing-page";
 import Container from "@/components/ui/container";
 import SectionWithBackground from "@/components/SectionWithBackground";
 import MyServices from "@/components/my-services";
-import Features from "@/components/feature";
+import Features from "@/components/feature-sec";
 import Teammember from '@/components/teammember';
 import Testimonials from '@/components/testimonials';
 import ContactUs from '@/components/contactUs';
