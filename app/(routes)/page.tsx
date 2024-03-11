@@ -2,11 +2,11 @@
 
 
 import React from 'react';
-import LandingPage from "@/components/landing-page";
+import LandingPage from "@/components/landingPage";
 import Container from "@/components/ui/container";
 import SectionWithBackground from "@/components/SectionWithBackground";
-import MyServices from "@/components/my-services";
-import Features from "@/components/feature-sec";
+import MyServices from "@/components/myServices";
+import Features from "@/components/featureSec";
 import Teammember from '@/components/teammember';
 import Testimonials from '@/components/testimonials';
 import ContactUs from '@/components/contactUs';

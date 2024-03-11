@@ -1,11 +1,11 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import SectionWithBackground from './SectionWithBackground';
-import MiningService from './mining-service';
-import CoffeeService from './coffee-services';
-import RestaurantService from './restaurant_service';
-import ConstructionService from './construction-service';
-import CarRentalService from './car-rental-service';
+import MiningService from './miningService';
+import CoffeeService from './coffeeServices';
+import RestaurantService from './restaurantService';
+import ConstructionService from './constructionService';
+import CarRentalService from './carRentalService';
 
 const MyServices = () => {
 
