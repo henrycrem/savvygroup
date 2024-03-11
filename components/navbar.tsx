@@ -22,7 +22,10 @@ const Navbar = async () => {
       />
 
     </Link>
-          <MainNav data={categories} />
+          {/* <MainNav data={categories} /> */}
+          <Link className="text-white" href="/">
+          Home 
+          </Link>
           <NavbarActions />
           
         </div>
