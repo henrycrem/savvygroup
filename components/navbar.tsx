@@ -2,11 +2,11 @@ import Link from "next/link";
 // import MainNav from "@/components/mainNav";
 import Container from "@/components/ui/container";
 import NavbarActions from "./ui/navbar-actions";
-import getCategories from "@/actions/get-categories";
+
 import Image from 'next/image';
 
 const Navbar = async () => {
-  const categories = await getCategories();
+
 
   return (
     <div className="bg-black border-b fixed top-0 w-full z-10">
